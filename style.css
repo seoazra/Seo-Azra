@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffff1;
+    color: rgb(129, 123, 123);
+  }
+  
+  /* Üst menü */
+  .navbar {
+    background-color: #420101; /* koyu bordo */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  /* Profil fotoğrafı */
+  .navbar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+  }
+  
+  /* Menü */
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 100px; /* Yazılar arası boşluk */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    transition: all 0.3s ease;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: black;
+    font-size: 23px;
+  }
+
+  footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    .menu {
+      display: none;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }
+
+ 

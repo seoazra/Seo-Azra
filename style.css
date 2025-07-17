@@ -78,35 +78,3 @@ body {
     }
   }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-th, td {
-  padding: 16px;
-  text-align: center;
-  border: 1px solid #ddd;
-}
-
-th {
-  background-color: #222;
-  color: white;
-}
-
-tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-tr:hover {
-  background-color: #f1f1f1;
-}
-
-.highlight {
-  background-color: #d0eaff;
-  font-weight: bold;
-}
-
- 
